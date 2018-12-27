@@ -1,0 +1,9 @@
+D:\Apps\apis\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.deps.json
+D:\Apps\apis\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.dll
+D:\Apps\apis\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.pdb
+D:\Apps\apis\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.csprojResolveAssemblyReference.cache
+D:\Apps\apis\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.csproj.CoreCompileInputs.cache
+D:\Apps\apis\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.AssemblyInfoInputs.cache
+D:\Apps\apis\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.AssemblyInfo.cs
+D:\Apps\apis\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.dll
+D:\Apps\apis\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.pdb

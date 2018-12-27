@@ -1,0 +1,13 @@
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\obj\Debug\netcoreapp2.1\Studentio.Repository.csprojResolveAssemblyReference.cache
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\obj\Debug\netcoreapp2.1\Studentio.Repository.csproj.CoreCompileInputs.cache
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\obj\Debug\netcoreapp2.1\Studentio.Repository.AssemblyInfoInputs.cache
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\obj\Debug\netcoreapp2.1\Studentio.Repository.AssemblyInfo.cs
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Repository.deps.json
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Repository.dll
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Repository.pdb
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Contracts.dll
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Entities.dll
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Contracts.pdb
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Entities.pdb
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\obj\Debug\netcoreapp2.1\Studentio.Repository.dll
+D:\Apps\apis\student.api\Studentio\Studentio.Repository\obj\Debug\netcoreapp2.1\Studentio.Repository.pdb
