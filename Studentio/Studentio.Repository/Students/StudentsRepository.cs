@@ -1,5 +1,6 @@
 ﻿using Studentio.Contracts.IStudent;
 using Studentio.Entities.Context;
+using Studentio.Entities.Extensions.Students;
 using Studentio.Entities.Models;
 using Studentio.Repository.RepositoryBase;
 using System;
@@ -50,7 +51,20 @@ namespace Studentio.Repository.Students
 
         public bool UpdateStudent(Student dbStudent, Student student)
         {
-            throw new NotImplementedException();
+            bool isDone = false;
+            try
+            {
+                dbStudent.Map(student);
+                Update(dbStudent);
+                Save();
+                isDone = true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
+            return isDone;
         }
     }
 }

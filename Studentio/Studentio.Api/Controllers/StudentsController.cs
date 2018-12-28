@@ -97,11 +97,35 @@ namespace Studentio.Api.Controllers
             }
         }
 
-        //// PUT api/<controller>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody]string value)
-        //{
-        //}
+        // PUT api/<controller>/5
+        [HttpPut("{id}")]
+        public IActionResult UpdateStudent(Guid id, [FromBody]Student student)
+        {
+            try
+            {
+                if (student.IsObjectNull())
+                {
+                    _logger.LogError($"Student model sent from UpdateStudent at : {DateTime.Now}, is a Null object");
+                    return BadRequest("Object is null");
+                }
+                if (!ModelState.IsValid)
+                {
+                    _logger.LogError($"Student model sent from UpdateStudent at : {DateTime.Now}, is invalid object");
+                    return BadRequest("Object is invalid");
+                }
+
+                var dbStudent = _repoWrapper.Student.GetStudentById(id);
+                _repoWrapper.Student.UpdateStudent(dbStudent, student);
+                _logger.LogInfo($"Student with id : {student.Id} has been successfully updated on {DateTime.Now}");
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Something went wrong inside UpdateStudent error: {ex.Message}");
+                return StatusCode(500, "internal server error");
+            }
+        }
 
         //// DELETE api/<controller>/5
         //[HttpDelete("{id}")]

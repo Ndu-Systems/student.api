@@ -15,3 +15,4 @@ C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\ne
 C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.AssemblyInfo.cs
 C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.dll
 C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.pdb
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.csprojAssemblyReference.cache
