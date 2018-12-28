@@ -10,7 +10,6 @@ D:\Apps\apis\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\St
 C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.deps.json
 C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.dll
 C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.pdb
-C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.csprojAssemblyReference.cache
 C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.AssemblyInfoInputs.cache
 C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.AssemblyInfo.cs

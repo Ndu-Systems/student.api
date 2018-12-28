@@ -2,8 +2,10 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Studentio.Contracts.ILoggerService;
 using Studentio.Contracts.IRepositoryWrapper;
 using Studentio.Entities.Context;
+using Studentio.LoggerService;
 using Studentio.Repository.RepositoryWrapper;
 using System;
 using System.Collections.Generic;
@@ -55,5 +57,11 @@ namespace Studentio.Api.ServiceExtentions
         {
             services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
         }
+
+        public static void ConfigureLoggerService(this IServiceCollection services)
+        {
+            services.AddSingleton<ILoggerManager, LoggerManager>();
+        }
+
     }
 }

@@ -22,6 +22,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Studentio.Contracts\Studentio.Contracts.csproj" />
     <ProjectReference Include="..\Studentio.Entities\Studentio.Entities.csproj" />
+    <ProjectReference Include="..\Studentio.LoggerService\Studentio.LoggerService.csproj" />
     <ProjectReference Include="..\Studentio.Repository\Studentio.Repository.csproj" />
   </ItemGroup>
 

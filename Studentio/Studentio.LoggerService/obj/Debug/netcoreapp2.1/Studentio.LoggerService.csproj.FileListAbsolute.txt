@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\bin\Debug\netcoreapp2.1\Studentio.LoggerService.deps.json
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\bin\Debug\netcoreapp2.1\Studentio.LoggerService.dll
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\bin\Debug\netcoreapp2.1\Studentio.LoggerService.pdb
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\bin\Debug\netcoreapp2.1\Studentio.Contracts.dll
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\bin\Debug\netcoreapp2.1\Studentio.Entities.dll
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\bin\Debug\netcoreapp2.1\Studentio.Contracts.pdb
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\bin\Debug\netcoreapp2.1\Studentio.Entities.pdb
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\obj\Debug\netcoreapp2.1\Studentio.LoggerService.csprojAssemblyReference.cache
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\obj\Debug\netcoreapp2.1\Studentio.LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\obj\Debug\netcoreapp2.1\Studentio.LoggerService.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\obj\Debug\netcoreapp2.1\Studentio.LoggerService.AssemblyInfo.cs
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\obj\Debug\netcoreapp2.1\Studentio.LoggerService.csproj.CopyComplete
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\obj\Debug\netcoreapp2.1\Studentio.LoggerService.dll
+C:\Users\User\source\repos\student.api\Studentio\Studentio.LoggerService\obj\Debug\netcoreapp2.1\Studentio.LoggerService.pdb

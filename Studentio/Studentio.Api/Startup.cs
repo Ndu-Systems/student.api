@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using NLog;
 using Studentio.Api.ServiceExtentions;
 
 namespace Studentio.Api
@@ -18,6 +19,7 @@ namespace Studentio.Api
     {
         public Startup(IConfiguration configuration)
         {
+            LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
             Configuration = configuration;
         }
 
@@ -28,8 +30,9 @@ namespace Studentio.Api
         {
             services.ConfigureCors();           
             services.ConfigureIISIntegration();
+            services.ConfigureLoggerService();
             services.ConfigureMySqlContext(Configuration);
-            services.ConfigureRepositoryWrapper();
+            services.ConfigureRepositoryWrapper();            
             services.AddMvc();
         }
 
