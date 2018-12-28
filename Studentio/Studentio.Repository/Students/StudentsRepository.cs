@@ -14,7 +14,7 @@ namespace Studentio.Repository.Students
         public StudentsRepository(RepositoryContext context) : base(context) { }
         public IEnumerable<Student> GetAllStudents() 
         {
-            return FindAll().Where(p => p.userstatus == "active");
+            return FindAll().Where(p => p.StatusId == 1);
         }
 
         public Student GetStudentById(int id)

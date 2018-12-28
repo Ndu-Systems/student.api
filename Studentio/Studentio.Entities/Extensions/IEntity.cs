@@ -6,6 +6,11 @@ namespace Studentio.Entities.Extensions
 {
     public interface IEntity
     {
-         int Id { get; set; }
+         Guid Id { get; set; }
+         Guid CreateUserId { get; set; }
+         DateTime CreateDate { get; set; }
+         Guid ModifyUserId { get; set; }
+         DateTime ModifyDate { get; set; }
+         int StatusId { get; set; }
     }
 }

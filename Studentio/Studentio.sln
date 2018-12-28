@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studentio.Api", "Studentio.Api\Studentio.Api.csproj", "{928882D1-95E4-404E-9C6E-D6687EB22D5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Studentio.Entities", "Studentio.Entities\Studentio.Entities.csproj", "{82E0492B-B562-495F-A9EA-BE5E0F034941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studentio.Entities", "Studentio.Entities\Studentio.Entities.csproj", "{82E0492B-B562-495F-A9EA-BE5E0F034941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Studentio.Contracts", "Studentio.Contracts\Studentio.Contracts.csproj", "{72F011F5-ADDB-4958-A5EA-6A3556872DE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studentio.Contracts", "Studentio.Contracts\Studentio.Contracts.csproj", "{72F011F5-ADDB-4958-A5EA-6A3556872DE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Studentio.Repository", "Studentio.Repository\Studentio.Repository.csproj", "{C811BFAA-6D04-4826-B42F-C86DF79B0459}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studentio.Repository", "Studentio.Repository\Studentio.Repository.csproj", "{C811BFAA-6D04-4826-B42F-C86DF79B0459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Studentio.Api", "Studentio.Api\Studentio.Api.csproj", "{35BF1EE6-CD0E-4515-8464-7C99F9261BF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{928882D1-95E4-404E-9C6E-D6687EB22D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{928882D1-95E4-404E-9C6E-D6687EB22D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{928882D1-95E4-404E-9C6E-D6687EB22D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{928882D1-95E4-404E-9C6E-D6687EB22D5E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{82E0492B-B562-495F-A9EA-BE5E0F034941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{82E0492B-B562-495F-A9EA-BE5E0F034941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82E0492B-B562-495F-A9EA-BE5E0F034941}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{C811BFAA-6D04-4826-B42F-C86DF79B0459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C811BFAA-6D04-4826-B42F-C86DF79B0459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C811BFAA-6D04-4826-B42F-C86DF79B0459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35BF1EE6-CD0E-4515-8464-7C99F9261BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BF1EE6-CD0E-4515-8464-7C99F9261BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BF1EE6-CD0E-4515-8464-7C99F9261BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BF1EE6-CD0E-4515-8464-7C99F9261BF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

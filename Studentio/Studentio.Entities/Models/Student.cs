@@ -7,26 +7,29 @@ using System.Text;
 
 namespace Studentio.Entities.Models
 {
-    [Table("user")]
+    [Table("student")]
     public class Student : IEntity
     {
         [Key]
-        [Column("id")]
-        public int Id { get; set; }
-        public string name { get; set; }
-        public string surname { get; set; }
-        public string email { get; set; }
-        public string cell { get; set; }
-        public string address { get; set; }
-        public string password { get; set; }
-        public string createdate { get; set; }
-        public string role { get; set; }
-        public string country { get; set; }
-        public string city { get; set; }
-        public string userstatus { get; set; }
-        public string idnumber { get; set; }
-        public string user_nmuber { get; set; }
-        public string token { get; set; }
+        [Column("Id")]
+        public Guid Id { get; set; }
+        public string Firstname { get; set; }
+        public string Surname { get; set; }
+        public string Email { get; set; }
+        public string Cellphone { get; set; }
+        public string IdNumber { get; set; }
+        public string StudentNumber { get; set; }
+        public string AddressLine1 { get; set; }
+        public string AddressLine2 { get; set; }
+        public string AddressLine3 { get; set; }
+        public string City { get; set; }
+        public string Postcode { get; set; }
+        public Guid CreateUserId { get; set; }
+        public DateTime CreateDate { get; set; }
+        public Guid ModifyUserId { get; set; }
+        public DateTime ModifyDate { get; set; }
+        public int StatusId { get; set; }
+
     }
 
 }
