@@ -26,7 +26,26 @@ namespace Studentio.Repository.Students
 
         public bool RegisterStudent(Student model)
         {
-            throw new NotImplementedException();
+            bool isDone = false;
+
+            model.CreateDate = DateTime.Now;
+            model.ModifyDate = DateTime.Now;
+            model.Id = Guid.NewGuid();
+            model.CreateUserId = Guid.NewGuid();
+            model.ModifyUserId = model.CreateUserId;
+            model.StatusId = 1;
+            try
+            {
+                Create(model);
+                Save();
+                isDone = true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
+            return isDone;
         }
 
         public bool UpdateStudent(Student dbStudent, Student student)
