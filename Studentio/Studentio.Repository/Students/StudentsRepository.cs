@@ -17,9 +17,11 @@ namespace Studentio.Repository.Students
             return FindAll().Where(p => p.StatusId == 1);
         }
 
-        public Student GetStudentById(int id)
+        public Student GetStudentById(Guid id)
         {
-            throw new NotImplementedException();
+            return FindByCondition(s => s.Id.Equals(id))
+                    .DefaultIfEmpty(new Student())
+                    .FirstOrDefault();
         }
 
         public bool RegisterStudent(Student model)

@@ -1,3 +1,4 @@
 2018-12-28 15:59:51.4800 INFO Students recieved
 2018-12-28 16:11:15.9959 INFO Students recieved
 2018-12-28 16:12:35.1251 INFO Students returned from database at : 2018/12/28 4:12:35 PM
+2018-12-28 16:24:15.8548 INFO Returned student with id : 05bce903-0eac-74f2-c730-d63f4a876064

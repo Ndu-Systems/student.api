@@ -10,7 +10,7 @@ namespace Studentio.Contracts.IStudent
     {
         IEnumerable<Student> GetAllStudents();
 
-        Student GetStudentById(int id);
+        Student GetStudentById(Guid id);
 
         bool RegisterStudent(Student model);
 
