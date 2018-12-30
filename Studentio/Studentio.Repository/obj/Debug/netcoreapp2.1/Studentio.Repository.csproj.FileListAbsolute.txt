@@ -28,10 +28,14 @@ C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\obj\Debug\
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Repository.deps.json
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Repository.dll
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Repository.pdb
+C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Contracts.dll
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Entities.dll
+C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Contracts.pdb
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Studentio.Entities.pdb
+C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\bin\Debug\netcoreapp2.1\System.IdentityModel.Tokens.Jwt.xml
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\obj\Debug\netcoreapp2.1\Studentio.Repository.csprojAssemblyReference.cache
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\obj\Debug\netcoreapp2.1\Studentio.Repository.csproj.CoreCompileInputs.cache
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Repository\obj\Debug\netcoreapp2.1\Studentio.Repository.AssemblyInfoInputs.cache

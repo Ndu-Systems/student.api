@@ -19,7 +19,6 @@ C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\ne
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.deps.json
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.dll
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.pdb
-C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.csprojAssemblyReference.cache
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.csproj.CoreCompileInputs.cache
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.AssemblyInfoInputs.cache
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.AssemblyInfo.cs

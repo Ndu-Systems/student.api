@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v2.1": {
       "Studentio.Repository/1.0.0": {
         "dependencies": {
-          "Studentio.Contracts": "1.0.0"
+          "Studentio.Contracts": "1.0.0",
+          "Microsoft.IdentityModel.Tokens": "5.2.0.0",
+          "System.IdentityModel.Tokens.Jwt": "5.2.0.0"
         },
         "runtime": {
           "Studentio.Repository.dll": {}
@@ -431,6 +433,22 @@
         "runtime": {
           "Studentio.Entities.dll": {}
         }
+      },
+      "Microsoft.IdentityModel.Tokens/5.2.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.50129"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.2.0.0": {
+        "runtime": {
+          "System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.50129"
+          }
+        }
       }
     }
   },
@@ -783,6 +801,16 @@
     },
     "Studentio.Entities/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Tokens/5.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IdentityModel.Tokens.Jwt/5.2.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
