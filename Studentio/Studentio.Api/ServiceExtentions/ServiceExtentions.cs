@@ -4,9 +4,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Studentio.Contracts.ILoggerService;
 using Studentio.Contracts.IRepositoryWrapper;
+using Studentio.Contracts.IToken;
 using Studentio.Entities.Context;
 using Studentio.LoggerService;
 using Studentio.Repository.RepositoryWrapper;
+using Studentio.Repository.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,6 +58,7 @@ namespace Studentio.Api.ServiceExtentions
         public static void ConfigureRepositoryWrapper(this IServiceCollection services)
         {
             services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+            services.AddTransient<ITokenReepository, TokenRepository>();
         }
 
         public static void ConfigureLoggerService(this IServiceCollection services)

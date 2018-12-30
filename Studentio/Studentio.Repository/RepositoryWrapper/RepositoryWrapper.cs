@@ -1,7 +1,10 @@
 ﻿using Studentio.Contracts.IRepositoryWrapper;
 using Studentio.Contracts.IStudent;
+using Studentio.Contracts.IToken;
+using Studentio.Contracts.IUser;
 using Studentio.Entities.Context;
 using Studentio.Repository.Students;
+using Studentio.Repository.Users;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -14,7 +17,8 @@ namespace Studentio.Repository.RepositoryWrapper
         private RepositoryContext _repoContext { get; set; }
 
         private IStudentRepository _student;
-
+        private IUserRepository _user;
+       
         public RepositoryWrapper(RepositoryContext repoContext)
         {
             _repoContext = repoContext;
@@ -32,6 +36,19 @@ namespace Studentio.Repository.RepositoryWrapper
                 return _student;
             }
         }
+        public IUserRepository User
+        {
+            get
+            {
+                if (_user == null)
+                {
+                    _user = new UserRepository(_repoContext);
+                }
+                return _user;
+            }
+        }
+
+       
 
     }
 }
