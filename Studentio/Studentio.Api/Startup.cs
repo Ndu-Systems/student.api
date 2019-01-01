@@ -32,7 +32,8 @@ namespace Studentio.Api
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
             services.ConfigureMySqlContext(Configuration);
-            services.ConfigureRepositoryWrapper();            
+            services.ConfigureRepositoryWrapper();
+            services.ConfigureJWTToken(Configuration);
             services.AddMvc();
         }
 
@@ -65,6 +66,7 @@ namespace Studentio.Api
 
             app.UseStaticFiles();
             //app.UseHttpsRedirection();
+            app.UseAuthentication();
             app.UseMvc(routes => {
                 routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
