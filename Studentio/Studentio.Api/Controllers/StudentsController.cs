@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Studentio.Contracts.ILoggerService;
 using Studentio.Contracts.IRepositoryWrapper;
@@ -12,6 +13,7 @@ using Studentio.Entities.Models;
 
 namespace Studentio.Api.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     public class StudentsController : Controller
     {

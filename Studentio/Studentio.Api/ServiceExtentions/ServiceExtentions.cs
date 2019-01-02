@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 using Studentio.Contracts.ILoggerService;
 using Studentio.Contracts.IRepositoryWrapper;
 using Studentio.Contracts.IToken;
@@ -12,6 +14,7 @@ using Studentio.Repository.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace Studentio.Api.ServiceExtentions
@@ -66,5 +69,22 @@ namespace Studentio.Api.ServiceExtentions
             services.AddSingleton<ILoggerManager, LoggerManager>();
         }
 
+        public static void ConfigureJWTToken(this IServiceCollection services, IConfiguration _configuration)
+        {
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = "https://www.student-io.net",
+                        ValidAudience = "https://www.student-io.net",
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["SecurityKey"]))
+                    };
+                });
+        }
     }
 }
