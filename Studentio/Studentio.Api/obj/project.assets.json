@@ -5333,6 +5333,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "Microsoft.AspNetCore.All": "2.1.0",
           "Pomelo.EntityFrameworkCore.MySql": "2.1.4"
         },
         "compile": {
@@ -11949,7 +11950,7 @@
       ]
     },
     "System.Runtime.Serialization.Json/4.0.2": {
-      "sha512": "+7DIJhnKYgCzUgcLbVTtRQb2l1M0FP549XFlFkQM5lmNiUBl44AfNbx4bz61xA8PzLtlYwfmif4JJJW7MPPnjg==",
+      "sha512": "hsn7DgJm6/APc5IU+oI56MNh7ouRWIuhRkMDWdFXQZVmdyDNrUdmsCcWRD30MQ1jbb3AmeRspm3kEWma03SeZw==",
       "type": "package",
       "path": "system.runtime.serialization.json/4.0.2",
       "files": [

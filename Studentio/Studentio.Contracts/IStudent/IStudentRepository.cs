@@ -1,4 +1,5 @@
 ﻿using Studentio.Contracts.IRepositoryBase;
+using Studentio.Entities.HATEOAS;
 using Studentio.Entities.Models;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ namespace Studentio.Contracts.IStudent
 {
     public interface IStudentRepository : IRepositoryBase<Student>
     {
-        IEnumerable<Student> GetAllStudents();
+        PagedList<Student> GetAllStudents(PagingParams pagingParams);
 
         Student GetStudentById(Guid id);
 

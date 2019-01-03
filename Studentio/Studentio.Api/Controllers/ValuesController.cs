@@ -21,18 +21,18 @@ namespace Studentio.Api.Controllers
         }
 
         // GET api/values
-        [HttpGet]
-        public IEnumerable<Student> Get()
-        {
-            var students = _repoWrapper.Student.GetAllStudents();
-            if (students != null)
-                _logger.LogInfo("Students recieved");
-            else
-                _logger.LogError("Something wrong happened at values/Get");
+        //[HttpGet]
+        //public IEnumerable<Student> Get()
+        //{
+        //    var students = _repoWrapper.Student.GetAllStudents();
+        //    if (students != null)
+        //        _logger.LogInfo("Students recieved");
+        //    else
+        //        _logger.LogError("Something wrong happened at values/Get");
 
-            return students;
+        //    return students;
 
-        }
+        //}
 
         // GET api/values/5
         [HttpGet("{id}")]

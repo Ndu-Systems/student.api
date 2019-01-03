@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json.Serialization;
 using NLog;
 using Studentio.Api.ServiceExtentions;
 
@@ -28,13 +30,28 @@ namespace Studentio.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.ConfigureCors();           
+            services.ConfigureCors();
+            services.ConfigurActionContextAccessor();
+            services.ConfigureUrlHelper();
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
             services.ConfigureMySqlContext(Configuration);
             services.ConfigureRepositoryWrapper();
             services.ConfigureJWTToken(Configuration);
-            services.AddMvc();
+            services.AddMvc(opt =>
+            {
+                opt.ReturnHttpNotAcceptable = true;
+
+                opt.OutputFormatters
+               .OfType<JsonOutputFormatter>()
+               .FirstOrDefault()
+               ?.SupportedMediaTypes
+                  .Add("application/vnd.fiver.hateoas+json");
+            }).AddJsonOptions(opt => {
+                opt.SerializerSettings.ContractResolver =
+                new CamelCasePropertyNamesContractResolver();
+
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

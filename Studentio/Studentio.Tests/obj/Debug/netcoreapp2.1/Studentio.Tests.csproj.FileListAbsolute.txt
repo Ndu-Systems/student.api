@@ -23,3 +23,7 @@ C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Tests\obj
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Tests\obj\Debug\netcoreapp2.1\Studentio.Tests.csproj.CopyComplete
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Tests\obj\Debug\netcoreapp2.1\Studentio.Tests.dll
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Tests\obj\Debug\netcoreapp2.1\Studentio.Tests.pdb
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Tests\obj\Debug\netcoreapp2.1\Studentio.Tests.csprojAssemblyReference.cache
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Tests\obj\Debug\netcoreapp2.1\Studentio.Tests.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Tests\obj\Debug\netcoreapp2.1\Studentio.Tests.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Tests\obj\Debug\netcoreapp2.1\Studentio.Tests.AssemblyInfo.cs

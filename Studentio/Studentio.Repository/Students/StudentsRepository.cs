@@ -1,6 +1,7 @@
 ﻿using Studentio.Contracts.IStudent;
 using Studentio.Entities.Context;
 using Studentio.Entities.Extensions.Students;
+using Studentio.Entities.HATEOAS;
 using Studentio.Entities.Models;
 using Studentio.Repository.RepositoryBase;
 using System;
@@ -16,6 +17,13 @@ namespace Studentio.Repository.Students
         public IEnumerable<Student> GetAllStudents() 
         {
             return FindAll().Where(p => p.StatusId == 1);
+        }
+
+        public PagedList<Student> GetAllStudents(PagingParams pagingParams)
+        {
+            var students = FindAll().Where(s => s.StatusId == 1).AsQueryable();
+            return new PagedList<Student>(
+                    students, pagingParams.PageNumber, pagingParams.PageSize);
         }
 
         public Student GetStudentById(Guid id)

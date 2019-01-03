@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+ 
 using Studentio.Contracts.ILoggerService;
 using Studentio.Contracts.IRepositoryWrapper;
 using Studentio.Contracts.IToken;
@@ -15,7 +16,7 @@ using Studentio.Entities.Models;
 namespace Studentio.Api.Controllers
 {
     [Route("api/[controller]")]
-    public class AccountsController : Controller
+    public class AccountsController : BaseController
     {
         private ITokenReepository _repoWrapper;
         private ILoggerManager _logger;

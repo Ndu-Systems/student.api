@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -85,6 +88,21 @@ namespace Studentio.Api.ServiceExtentions
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["SecurityKey"]))
                     };
                 });
+        }
+
+        public static void ConfigurActionContextAccessor(this IServiceCollection services)
+        {
+            services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
+        }
+
+        public static void ConfigureUrlHelper(this IServiceCollection services)
+        {
+            services.AddScoped<IUrlHelper>(factory =>
+            {
+                var actionContext = factory.GetService<IActionContextAccessor>()
+                                           .ActionContext;
+                return new UrlHelper(actionContext);
+            });
         }
     }
 }
