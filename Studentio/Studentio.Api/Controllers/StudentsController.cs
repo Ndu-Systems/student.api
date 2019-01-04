@@ -68,7 +68,7 @@ namespace Studentio.Api.Controllers
 
         // GET api/students/05bce903-0eac-74f2-c730-d63f4a876064
         [HttpGet("{id}", Name ="GetStudent")]
-        public IActionResult Get(Guid id)
+        public IActionResult Get(Guid id, [FromHeader(Name = "Accept")]string acceptHeader)
         {
             try
             {
@@ -81,7 +81,16 @@ namespace Studentio.Api.Controllers
                 else
                 {
                     _logger.LogInfo($"Returned student with id : {student.Id}");
-                    return Ok(student);
+                    if (string.Equals(acceptHeader, "application/vnd.fiver.hateoas+json"))
+                    {
+                        var outputModel = ToOutputModel_Links(student);
+                        return Ok(outputModel);
+                    }
+                    else
+                    {
+                        var outputModel = ToOutputModel_Default(student);
+                        return Ok(outputModel);
+                    }
                 }
             }
             catch (Exception ex)
@@ -92,7 +101,7 @@ namespace Studentio.Api.Controllers
         }
 
         // POST api/students
-        [HttpPost]
+        [HttpPost(Name = "RegisterStudent")]
         public IActionResult RegisterStudent([FromBody]Student student)
         {
             try
@@ -119,7 +128,7 @@ namespace Studentio.Api.Controllers
         }
 
         // PUT api/<controller>/5
-        [HttpPut("{id}")]
+        [HttpPut("{id}", Name = "UpdateStudent")]
         public IActionResult UpdateStudent(Guid id, [FromBody]Student student)
         {
             try
@@ -159,7 +168,7 @@ namespace Studentio.Api.Controllers
             links.Add(new LinkInfo
             {
                 Href = _urlHelper.Link("GetStudents",
-                          new { PageNumber = model.PreviousPageNumber, PageSize = model.PageSize }),
+                          new { PageNumber = model.PreviousPageNumber, model.PageSize }),
                 Rel = "self",
                 Method = "GET"
             });
@@ -169,7 +178,7 @@ namespace Studentio.Api.Controllers
                 links.Add(new LinkInfo
                 {
                     Href = _urlHelper.Link("GetStudent",
-                          new { PageNumber = model.PreviousPageNumber, PageSize = model.PageSize }),
+                          new { PageNumber = model.PreviousPageNumber, model.PageSize }),
                     Rel = "previous-page",
                     Method = "GET"
                 });
@@ -180,7 +189,7 @@ namespace Studentio.Api.Controllers
                 links.Add(new LinkInfo
                 {
                     Href = _urlHelper.Link("GetStudents",
-                          new { PageNumber = model.PreviousPageNumber, PageSize = model.PageSize }),
+                          new { PageNumber = model.PreviousPageNumber, model.PageSize }),
                     Rel = "next-page",
                     Method = "GET"
                 });
@@ -212,8 +221,8 @@ namespace Studentio.Api.Controllers
              links.Add(new LinkInfo
             {
                 Href = _urlHelper.Link("UpdateStudent", new { id = model.Id}),
-                Rel = "self",
-                Method = "GET"
+                Rel = "Update-Student-Details",
+                Method = "PUT"
             });
 
             return links;
