@@ -38,20 +38,22 @@ namespace Studentio.Api
             services.ConfigureMySqlContext(Configuration);
             services.ConfigureRepositoryWrapper();
             services.ConfigureJWTToken(Configuration);
+
             services.AddMvc(opt =>
             {
                 opt.ReturnHttpNotAcceptable = true;
-
                 opt.OutputFormatters
                .OfType<JsonOutputFormatter>()
                .FirstOrDefault()
                ?.SupportedMediaTypes
                   .Add("application/vnd.fiver.hateoas+json");
-            }).AddJsonOptions(opt => {
+            }).AddJsonOptions(opt =>
+            {
                 opt.SerializerSettings.ContractResolver =
                 new CamelCasePropertyNamesContractResolver();
 
             });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -84,9 +86,12 @@ namespace Studentio.Api
             app.UseStaticFiles();
             //app.UseHttpsRedirection();
             app.UseAuthentication();
-            app.UseMvc(routes => {
-                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
-            });
+            //app.UseMvc(routes => {
+            //    routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
+            //});
+            app.UseMvcWithDefaultRoute();
+
+
         }
     }
 }

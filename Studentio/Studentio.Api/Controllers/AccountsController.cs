@@ -29,7 +29,8 @@ namespace Studentio.Api.Controllers
 
 
         [AllowAnonymous]
-        [HttpPost("Login")]
+        [Route("Login")]
+        [HttpPost]
         public IActionResult Login([FromBody] LoginDTO model)
         {
             try

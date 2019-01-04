@@ -32,6 +32,7 @@ namespace Studentio.Api.Controllers
 
 
         // GET: api/students
+        [Route("/")]
         [HttpGet(Name = "GetStudents")]
         public IActionResult Get(
             PagingParams pagingParams,
@@ -67,6 +68,7 @@ namespace Studentio.Api.Controllers
         }
 
         // GET api/students/05bce903-0eac-74f2-c730-d63f4a876064
+        [Route("/")]
         [HttpGet("{id}", Name ="GetStudent")]
         public IActionResult Get(Guid id, [FromHeader(Name = "Accept")]string acceptHeader)
         {
@@ -101,6 +103,7 @@ namespace Studentio.Api.Controllers
         }
 
         // POST api/students
+        [Route("RegisterStudent")]
         [HttpPost(Name = "RegisterStudent")]
         public IActionResult RegisterStudent([FromBody]Student student)
         {
@@ -128,6 +131,7 @@ namespace Studentio.Api.Controllers
         }
 
         // PUT api/<controller>/5
+        [Route("UpdateStudent")]
         [HttpPut("{id}", Name = "UpdateStudent")]
         public IActionResult UpdateStudent(Guid id, [FromBody]Student student)
         {
