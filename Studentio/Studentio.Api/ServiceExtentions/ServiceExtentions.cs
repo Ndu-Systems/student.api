@@ -47,7 +47,7 @@ namespace Studentio.Api.ServiceExtentions
         public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
         {
             string connectionString = "";
-            connectionString = connectionString.IsDevelopment(false, config);
+            connectionString = connectionString.IsDevelopment(true, config);
             services.AddDbContext<RepositoryContext>(o => o.UseMySql(connectionString));
         }
         public static string IsDevelopment(this string connectionString, bool check, IConfiguration config)
