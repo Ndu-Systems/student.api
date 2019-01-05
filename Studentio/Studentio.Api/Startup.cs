@@ -86,10 +86,11 @@ namespace Studentio.Api
             app.UseStaticFiles();
             //app.UseHttpsRedirection();
             app.UseAuthentication();
-            //app.UseMvc(routes => {
-            //    routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
-            //});
-            app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
+            });
+            //app.UseMvcWithDefaultRoute();
 
 
         }
