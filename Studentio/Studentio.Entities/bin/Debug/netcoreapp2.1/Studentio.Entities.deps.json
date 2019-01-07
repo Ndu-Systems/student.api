@@ -346,11 +346,7 @@
     "Microsoft.Extensions.DependencyInjection/2.1.1": {
       "type": "package",
       "serviceable": true,
-<<<<<<< HEAD
-      "sha512": "sha512-ZPFcDUbSwaEVWMyef8+9GqiTAghHX+eLeIEW032i4LDFAdyM4J4brV0UzChlKtClT7cuip/Of6G+veDnO3/bCw==",
-=======
       "sha512": "sha512-2nshYaLTn73Ie+/yTkb7EZIXwQeFIXsYCBy/jSY9bMayYykGNjdWa25frayhuPAGVbZpEgfgp3d4JRVEuVyEqQ==",
->>>>>>> 8e05568f0267d8840128047559ebc76ec5dd3ab9
       "path": "microsoft.extensions.dependencyinjection/2.1.1",
       "hashPath": "microsoft.extensions.dependencyinjection.2.1.1.nupkg.sha512"
     },
@@ -420,11 +416,7 @@
     "Microsoft.NETCore.Platforms/2.1.0": {
       "type": "package",
       "serviceable": true,
-<<<<<<< HEAD
-      "sha512": "sha512-aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
-=======
       "sha512": "sha512-TT+QCi9LcxGTjBssH7S7n5+8DVcwfG4DYgXX7Dk7+BfZ4oVHj8Q0CbYk9glzAlHLsSt3bYzol+fOdra2iu6GOw==",
->>>>>>> 8e05568f0267d8840128047559ebc76ec5dd3ab9
       "path": "microsoft.netcore.platforms/2.1.0",
       "hashPath": "microsoft.netcore.platforms.2.1.0.nupkg.sha512"
     },
@@ -466,22 +458,14 @@
     "Remotion.Linq/2.2.0": {
       "type": "package",
       "serviceable": true,
-<<<<<<< HEAD
-      "sha512": "sha512-twDAH8dAXXCAf3sRv1Tf94u66eEHvgU75hfn1nn2v4fSWXD50XoDOAk8WpSrbViNuMkB4kN1ElnOGm1c519IHg==",
-=======
       "sha512": "sha512-fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
->>>>>>> 8e05568f0267d8840128047559ebc76ec5dd3ab9
       "path": "remotion.linq/2.2.0",
       "hashPath": "remotion.linq.2.2.0.nupkg.sha512"
     },
     "System.Collections.Immutable/1.5.0": {
       "type": "package",
       "serviceable": true,
-<<<<<<< HEAD
-      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
-=======
       "sha512": "sha512-RGxi2aQoXgZ5ge0zxrKqI4PU9LrYYoLC+cnEnWXKsSduCOUhE1GEAAoTexUVT8RZOILQyy1B27HC8Xw/XLGzdQ==",
->>>>>>> 8e05568f0267d8840128047559ebc76ec5dd3ab9
       "path": "system.collections.immutable/1.5.0",
       "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
     },
@@ -495,22 +479,14 @@
     "System.Interactive.Async/3.1.1": {
       "type": "package",
       "serviceable": true,
-<<<<<<< HEAD
-      "sha512": "sha512-x9y2omkjEudKbIVuhUzeWw7ZlouEzpk4W98woCEq1lq9gJxERBKRKDTHF5JPEws9E0f4/Uei/2vLxEy1IrfmMg==",
-=======
       "sha512": "sha512-hZccYiIE5RS1/J9Tb/BNtosAGVggdlsJm4Ojdu+gDV0p4AIi+LUfUogMKkRacljQEJd2AG6vYzvcjhQFkqoZmw==",
->>>>>>> 8e05568f0267d8840128047559ebc76ec5dd3ab9
       "path": "system.interactive.async/3.1.1",
       "hashPath": "system.interactive.async.3.1.1.nupkg.sha512"
     },
     "System.Linq.Queryable/4.0.1": {
       "type": "package",
       "serviceable": true,
-<<<<<<< HEAD
-      "sha512": "sha512-Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
-=======
       "sha512": "sha512-ZNjfTRMs3kXZ9iADo9+kPkcU9oMTS62FFKXXCMNKXWeOWV7oE12trhiPpmGj2Pl2nGtJkM38MeY3DjCKH9sGHA==",
->>>>>>> 8e05568f0267d8840128047559ebc76ec5dd3ab9
       "path": "system.linq.queryable/4.0.1",
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
     },
@@ -524,11 +500,7 @@
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
       "type": "package",
       "serviceable": true,
-<<<<<<< HEAD
-      "sha512": "sha512-x/3d5xb+mc9e4I2GOOT+HPRWMZLbYjNN/kYKsb0fyUKcWizn/t1CIrGRLIBhv7H0ptYEt+WTTztdPmwSUMyKig==",
-=======
       "sha512": "sha512-qUJMNWhbm9oZ3XaMFiEMiYmRPszbnXIkRIi7+4b2Md2xZ6JUOepf0/kY3S85qistRohl9OdMe4PsO+RdG2kTIQ==",
->>>>>>> 8e05568f0267d8840128047559ebc76ec5dd3ab9
       "path": "system.runtime.compilerservices.unsafe/4.5.1",
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
     }
