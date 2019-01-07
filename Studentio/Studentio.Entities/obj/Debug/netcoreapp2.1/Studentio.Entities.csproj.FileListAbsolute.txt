@@ -16,13 +16,5 @@ C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.dll
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.pdb
 C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.csprojAssemblyReference.cache
-C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.deps.json
-C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.runtimeconfig.json
-C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.runtimeconfig.dev.json
-C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.dll
-C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.pdb
-C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.csproj.CoreCompileInputs.cache
-C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.AssemblyInfoInputs.cache
-C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.AssemblyInfo.cs
-C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.dll
-C:\Users\User\source\repos\student.api\Studentio\Studentio.Entities\obj\Debug\netcoreapp2.1\Studentio.Entities.pdb
+C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.runtimeconfig.json
+C:\Users\Freedom.Khanyile\source\repos\student.api\Studentio\Studentio.Entities\bin\Debug\netcoreapp2.1\Studentio.Entities.runtimeconfig.dev.json
