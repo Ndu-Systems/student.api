@@ -16,5 +16,7 @@ namespace Studentio.Entities.Context
 
         public virtual DbSet<User> Users { get; set; }
 
+        public virtual DbSet<Course> Courses { get; set; }
+
     }
 }

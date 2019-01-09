@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\bin\Release\netcoreapp2.1\Studentio.Repository.deps.json
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\bin\Release\netcoreapp2.1\Studentio.Repository.dll
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\bin\Release\netcoreapp2.1\Studentio.Repository.pdb
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\bin\Release\netcoreapp2.1\Studentio.Contracts.dll
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\bin\Release\netcoreapp2.1\Studentio.Entities.dll
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\bin\Release\netcoreapp2.1\Studentio.Contracts.pdb
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\bin\Release\netcoreapp2.1\Studentio.Entities.pdb
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\obj\Release\netcoreapp2.1\Studentio.Repository.csprojAssemblyReference.cache
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\obj\Release\netcoreapp2.1\Studentio.Repository.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\obj\Release\netcoreapp2.1\Studentio.Repository.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\obj\Release\netcoreapp2.1\Studentio.Repository.AssemblyInfo.cs
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\obj\Release\netcoreapp2.1\Studentio.Repository.csproj.CopyComplete
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\obj\Release\netcoreapp2.1\Studentio.Repository.dll
+C:\Users\User\source\repos\student.api\Studentio\Studentio.Repository\obj\Release\netcoreapp2.1\Studentio.Repository.pdb

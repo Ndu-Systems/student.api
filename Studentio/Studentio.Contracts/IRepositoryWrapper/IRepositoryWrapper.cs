@@ -1,4 +1,5 @@
-﻿using Studentio.Contracts.IStudent;
+﻿using Studentio.Contracts.ICourse;
+using Studentio.Contracts.IStudent;
 using Studentio.Contracts.IUser;
 using System;
 using System.Collections.Generic;
@@ -11,5 +12,7 @@ namespace Studentio.Contracts.IRepositoryWrapper
         IStudentRepository Student { get;  }
 
         IUserRepository User { get;  }
+
+        ICourseRepository Course { get; }
     }
 }
